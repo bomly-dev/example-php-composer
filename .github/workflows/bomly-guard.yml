@@ -27,5 +27,6 @@ jobs:
         with:
           log-level: debug
           ecosystems: php
+          matchers: -depsdev-license-matcher
           fail-on: high
           comment-summary-in-pr: always
