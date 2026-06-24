@@ -28,5 +28,6 @@ jobs:
           cli-token: ${{ github.token }}
           log-level: debug
           ecosystems: php
+          matchers: +scorecard
           fail-on: any
           comment-summary-in-pr: always
